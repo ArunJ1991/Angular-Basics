@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-application';
+
+  no: number;
+
+  constructor() {
+    this.no = 0;
+  }
+
+  increase() {
+    this.no++;
+  }
+
+  decrease() {
+    this.no--;
+  }
+
 }
